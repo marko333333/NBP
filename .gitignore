@@ -1,1 +1,50 @@
-*.env
+# ===== .NET / Visual Studio =====
+[Bb]in/
+[Oo]bj/
+.vs/
+*.user
+*.suo
+*.userprefs
+*.rsuser
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.log
+TestResults/
+*.nupkg
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+.vite/
+.cache/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== Tajne i konfiguracija =====
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# ===== Docker / Redis / Neo4j lokalni podaci =====
+redis-data/
+neo4j-data/
+dump.rdb
+
+# ===== OS i editori =====
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
